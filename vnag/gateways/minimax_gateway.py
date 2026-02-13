@@ -104,5 +104,7 @@ class MinimaxGateway(OpenaiGateway):
             "MiniMax-M2-Stable",
             "MiniMax-M2.1",
             "MiniMax-M2.1-Lighting",
+            "MiniMax-M2.5",
+            "MiniMax-M2.5-Lightning",
         ]
         return models
