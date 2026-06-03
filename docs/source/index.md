@@ -1,7 +1,7 @@
 # VNAG 文档
 
 <p align="center">
-    <img src="https://img.shields.io/badge/version-0.7.0-blueviolet.svg"/>
+    <img src="https://img.shields.io/badge/version-0.9.0-blueviolet.svg"/>
     <img src="https://img.shields.io/badge/platform-windows|linux|macos-yellow.svg"/>
     <img src="https://img.shields.io/badge/python-3.10|3.11|3.12|3.13-blue.svg" />
     <img src="https://img.shields.io/github/license/vnpy/vnag.svg?color=orange"/>
@@ -78,6 +78,13 @@ rag/index
 :caption: 图形界面
 
 ui/index
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: 命令行界面
+
+cli/index
 ```
 
 ```{toctree}

@@ -25,7 +25,10 @@ dependencies = [
     # AI服务
     "openai",
     "anthropic",
+    "ollama",
     "dashscope",
+    "boto3",
+    "google-genai",
     # UI界面
     "PySide6",
     "PySide6-Addons",
@@ -34,11 +37,17 @@ dependencies = [
     "fastmcp",
     "requests",
     "chardet",
+    # 技能系统
+    "pyyaml",
 ]
 requires-python = ">=3.10"
 keywords = ["ai", "agent"]
 
 [project.optional-dependencies]
+tui = [
+    "prompt_toolkit",
+    "rich",
+]
 rag = [
     # 分段器
     "markdown-it-py",

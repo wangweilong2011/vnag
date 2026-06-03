@@ -37,7 +37,7 @@
 
 ### Gateway 示例
 
-- **run_openai_gateway**: 演示如何使用 `OpenaiGateway` 调用 OpenAI 风格的 API 接口，例如 OpenAI 官方服务、OpenRouter 聚合路由服务等。
+- **run_completion_gateway**: 演示如何使用 `CompletionGateway` 调用 OpenAI Chat Completions 风格的 API 接口，例如 OpenAI 官方服务、OpenRouter 聚合路由服务等。
 
     - 使用时需要将 `connect_openai.json` 文件放置在用户目录下的 `.vnag` 文件夹中
 
@@ -51,7 +51,7 @@
 
 ### Vector 示例
 
-- **run_chromadb_add**: 演示如何使用 `ChromaVector` 将 Markdown 文件进行分段处理，并添加到 ChromaDB 向量数据库中。
+- **run_chromadb_add**: 演示如何使用 `ChromadbVector` 将 Markdown 文件进行分段处理，并添加到 ChromaDB 向量数据库中。
 
     - 默认使用本地 `SentenceEmbedder`（无需 API Key，首次运行会自动下载模型）
     - 如需使用 DashScope API，可参考脚本中的注释修改
@@ -137,6 +137,6 @@
 
 ### UI 示例
 
-- **run_chat_ui**: 演示如何初始化 `OpenaiGateway` 并启动 `MainWindow`，从而运行一个可以与大模型进行交互的聊天应用。
+- **run_chat_ui**: 演示如何初始化 `CompletionGateway` 并启动 `MainWindow`，从而运行一个可以与大模型进行交互的聊天应用。
 
     - 使用时需要将 `connect_openai.json` 文件放置在用户目录下的 `.vnag` 文件夹中

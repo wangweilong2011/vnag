@@ -1,3 +1,56 @@
+# 0.9.0
+
+## Add
+
+1. 基于Responses交互的新版OpenaiGateway
+2. 新增BedrockGateway
+3. 新增GeminiGateway
+4. 新增OllamaGateway
+5. 会话历史导出功能
+6. 待办任务列表工具
+7. 用户提问交互工具
+8. 会话上下文自动压缩
+
+## Mod
+
+1. 优化工具执行调度逻辑
+2. 设定生成标题默认温度为1，适配当前多数AI接口
+3. 延迟导入embedder模块，优化启动速度
+4. 增强文件相关工具
+
+## Fix
+
+1. 工具调用重复的问题
+
+# 0.8.0
+
+## Add
+
+1. 添加DuckDB向量化数据库支持
+2. 增加本地知识库功能
+3. 新增Agent Skill的支持
+4. 新增MoonshotGateway、ZhipuGateway、VolcengineGateway
+5. 增加终端工具模块terminal_tools
+6. 新增CLI交互模式
+
+
+## Mod
+
+1. Embedder类增加默认名称和参数
+2. Vector类增加list_segments函数
+3. 增加AI服务的网络代理支持
+4. 优化回答内容中代码片段的展示
+5. 优化会话历史的删除和重发
+6. 当前会话返回结束前禁止发送新的请求
+7. 优化TaskAgent的ReAct执行
+8. 优化日志追踪模块
+
+## Fix
+
+1. 修复LiteLLM接口的content缺失问题
+2. 修复停止请求后导致的状态异常问题
+
+
 # 0.7.0
 
 ## Add
